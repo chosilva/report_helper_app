@@ -1,0 +1,11 @@
+
+     * Status
+    ETA 1: 0 m³
+    ETA 2: 213 m³
+    ETA 3: 193 m³
+    Total Captado: 406 m³
+    Reservatório elevado: 990 m³
+    Cisterna: 990
+    Turbidez de água tratada: 0.38 NTU
+    Cloro residual água tratada: 1.29
+    
