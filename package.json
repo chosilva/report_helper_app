@@ -1,10 +1,10 @@
 {
-  "name": "frontend",
+  "name": "report_helper_app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "engines": {
-    "node": ">=18.18.0 <19.0.0"
+    "node": "18"
   },
   "scripts": {
     "dev": "vite",
