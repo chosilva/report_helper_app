@@ -51,7 +51,7 @@ ETA 2: *${this.resultEta2}m³*
 ETA 3: *${this.resultEta3}m³*
 Total Captado: *${this.resultTotalcaptado}m³*
 
-Reservatório elevado: *1100m³*
+Reservatório elevado: *900m³*
 Cisterna: *${this.resultCisterna}m³*
 
 Turbidez água tratada: *${this.resultTurbAguaTratada}NTU*
