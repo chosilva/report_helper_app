@@ -1,6 +1,17 @@
 <div class="app">
   <form class="form-parameters" (ngSubmit)="onSubmit($event)">
     <div class="input-data">
+      <label for="numero-abate">
+        ETA 1:
+        <input
+          type="number"
+          name="numero-abate"
+          id="numero-abate"
+          [(ngModel)]="numeroDeAbate"
+        />
+      </label>
+    </div>
+    <div class="input-data">
       <label for="eta-1-vazao">
         ETA 1:
         <input
