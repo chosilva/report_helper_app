@@ -18,6 +18,7 @@ export class ReportHelperComponent {
   cloroResidualAguaTratada: number = 0;
   turbidezAguaBruta: number = 0;
   phAguaBruta: number = 0;
+  numeroDeAbate: number = 0;
 
   resultEta1: number = 0;
   resultEta2: number = 0;
@@ -28,6 +29,7 @@ export class ReportHelperComponent {
   resultTurbAguaBruta: number = 0;
   resultCloroResidual: number = 0;
   resultPhAguaBruta: number = 0;
+  resultNumeroDeAbate: number = 0;
 
   constructor(private clipboard: Clipboard) {}
 
@@ -43,13 +45,17 @@ export class ReportHelperComponent {
     this.resultCloroResidual = this.cloroResidualAguaTratada || 0;
     this.resultTurbAguaBruta = this.turbidezAguaBruta || 0;
     this.resultPhAguaBruta = this.phAguaBruta || 0;
+    this.resultNumeroDeAbate = this.numeroDeAbate || 0;
+    
 
-    const resultFinal = `> Status ETA
-
+    const resultFinal = `
+> Status ETA
 ETA 1: *${this.resultEta1}m³*
 ETA 2: *${this.resultEta2}m³*
 ETA 3: *${this.resultEta3}m³*
+
 Total Captado: *${this.resultTotalcaptado}m³*
+Abate: *${this.resultNumeroDeAbate}*
 
 Reservatório elevado: *900m³*
 Cisterna: *${this.resultCisterna}m³*
