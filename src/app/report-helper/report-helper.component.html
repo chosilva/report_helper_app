@@ -2,7 +2,7 @@
   <form class="form-parameters" (ngSubmit)="onSubmit($event)">
     <div class="input-data">
       <label for="numero-abate">
-        ETA 1:
+        Numero de Abate:
         <input
           type="number"
           name="numero-abate"
@@ -117,6 +117,9 @@
       <h1 class="title">Total Captado:</h1>
       <span>{{ resultTotalcaptado }}</span>
       <span class="unidades_medida">m³</span>
+
+      <h1 class="title">Abate previsto:</h1>
+      <span>{{ numeroDeAbate }}</span>
 
       <h1 class="title">Reservatório elevado:</h1>
       900
